@@ -15,7 +15,7 @@ return (
 <div style={{overflow:'hidden'}}> 
     
    <div>
-      <Navbar/>
+      <Navbar  clr={'#fff'} />
     </div>
 
 

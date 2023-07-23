@@ -1,40 +1,40 @@
-import axios from "axios";
+// import axios from "axios";
 
-const serverURL="https://localhost:5000"
+// const serverURL="https://localhost:5000"
 
-const postdata=async(url,body)=>{
-try{
+// const postdata=async(url,body)=>{
+// try{
 
-var response=await  axios.post(`${serverURL}/${url}`,body)
-var result=await response.data
-return result;
+// var response=await  axios.post(`${serverURL}/${url}`,body)
+// var result=await response.data
+// return result;
 
-}
-catch(e){
+// }
+// catch(e){
 
-    return null 
-}
+//     return null 
+// }
 
 
 
-}
+// }
 
-const getdata=async(url)=>{
+// const getdata=async(url)=>{
     
-    try{
+//     try{
     
-        var response=await  axios.post(`${serverURL}/${url}`)
-        var result=await response.data
-        return result;
+//         var response=await  axios.post(`${serverURL}/${url}`)
+//         var result=await response.data
+//         return result;
     
-    }
-    catch(e){
+//     }
+//     catch(e){
     
-        return null 
-    }
+//         return null 
+//     }
     
     
     
-    }
+//     }
 
-    export {serverURL,postdata,getdata}
+//     export {serverURL,postdata,getdata}

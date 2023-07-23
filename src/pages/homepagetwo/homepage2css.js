@@ -7,7 +7,7 @@ export const useStyles = makeStyles({
     mainpagetwo:{
         display:'flex',
         width:'100%',
-        height:'100vh',
+       
        
         
         
@@ -17,15 +17,11 @@ export const useStyles = makeStyles({
         height:'100vh',
         background:'#fff',
         display:'flex',
-        justifyContent:'center',
+        
         
         
     },
-    imgdiv:{
-     width:'95%',
-     height:'95%',
-    
-    },
+   
     img:{
 
         width:'100%',
@@ -35,7 +31,7 @@ export const useStyles = makeStyles({
 
         display:'flex',
         flexDirection:'column',
-        width:'50%',
+      
         height:'100vh',
         background:'#130f40'
     
@@ -58,9 +54,9 @@ export const useStyles = makeStyles({
         alignItems:'center',
         width:'80%',
         color:'#fff',
-        fontFamily:'Ubuntu',
-        fontSize:'20px',
-        margin:'100px 0 0 10%'
+        fontFamily:'Fasthand',
+      
+      
     } ,
     skil1:{
 
@@ -69,19 +65,19 @@ export const useStyles = makeStyles({
         alignItems:'center',
         width:'70%',
         color:'#fff',
-        fontFamily:'Ubuntu',
-        fontSize:'20px',
+        fontFamily:'Fasthand',
+       
         margin:'20px 0 0 10%'
       
     },
     what:{
   
-         fontSize:'100px',
+        
          color:'#fff',
          fontFamily:'Ysabeau Infant',
          fontWeight:'bold',
          alignSelf:'center',
-         margin:'5rem 0 0 0',
+        
       
 
 

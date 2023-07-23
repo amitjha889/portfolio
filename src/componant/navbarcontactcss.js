@@ -43,9 +43,7 @@ name:{
     cursor:'pointer',
     
    
-    '&:hover':{
-        fontSize:'320%'
-    }
+  
    
 },
 linklist:{
@@ -54,21 +52,20 @@ linklist:{
     flexDirection:'row',
     justifyContent:'space-evenly',
     alignItems:'center',
-   
+    
     fontFamily:'Ysabeau Infant',
     
-    marginLeft:'12%',
- 
+    
+  
     
    
 },
 links:{
     
-    
+    color:'#fff',
     fontWeight:'bold',
-    
+    textShadow:' #30336b 5px 5px 5px',
     border:'#130f40',
-    
     cursor:'pointer',
     transition:"linear 0.8s",
     '&:hover':{

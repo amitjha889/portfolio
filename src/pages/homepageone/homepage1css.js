@@ -5,46 +5,47 @@ export const useStyles = makeStyles({
   mainpageone:{
   display:'flex',
   width:'100%',
-  height:'100vh',
+  
   background:'#0a3d62',
   
   
 
   },
   leftdiv:{
-    width:'50%',
+    
     height:'100vh',
     background:'#130f40',
     display:'flex',
     flexDirection:'column',
+    
     
   },
   myname:{
 
     fontFamily:'Ubuntu',
     color:'#fff',
-    fontSize:'400%',
-    margin:'20vh 0 0 10%'
+    display:'flex',
+    justifyContent:'center'
     
 
   },
   title:{
  
     display:'flex',
-    width:'60%',
+    
     fontFamily:'Ubuntu',
     color:'#fff',
-    fontSize:'180%',
-    margin:'4vh 0 0 10%',
+    
+    
     opacity:'0.8',
   
   
     
   },
   contactlink:{
-  width:'40%',
-  height:'50px',
-  margin:'60px 0 0 10%',
+  
+  height:'55px',
+  
   background:'#130f40',
   borderRadius:'28px',
   boxShadow:'#fff 1px 1px 15px 12px',
@@ -55,10 +56,11 @@ export const useStyles = makeStyles({
   },
   iconfocus:{
 
-    '&:hover':{
-      width:'35px'
-    }
 
+    transition:"linear 0.8s",
+    '&:hover':{
+      transform:"scale(1.3)"
+    }
 
   },
 
@@ -77,18 +79,18 @@ export const useStyles = makeStyles({
    
   width:'90%',
   height:'90%',
-  margin:'72px 0 0 0',
+ 
   display:'flex',
   justifyContent:'center',
-  alignItems:'end'
+  alignItems:'center',
+  
 
 
 
   },
   img:{
 
-    width:'90%',
-    height:'90%',
+    
    
 
   }

@@ -4,16 +4,17 @@ import Footer from "../componant/footer"
 import Educationfirstpage from "../pages/educationpageone/educationpage1"
 
 export default function Educationpage(){
+
+ 
     
 
     return (
 
       <div style={{overflow:'hidden'}} > 
 
-        <div>
-          <Navbar/>
-        </div>
-
+        {/* <div >
+          <Navbar  clr={'#fff'}  />
+        </div> */}
         <div>
           <Educationfirstpage/>
         </div>
