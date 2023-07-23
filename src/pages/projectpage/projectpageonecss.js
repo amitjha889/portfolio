@@ -47,7 +47,7 @@ export const useStyles = makeStyles({
 
         display:'flex',
         
-        width:'90%',
+       
         
         
     },
@@ -76,7 +76,9 @@ export const useStyles = makeStyles({
         fontFamily:'Ysabeau Infant',
         display:'flex',
         justifyContent:'center',
-        width:'80%'
+        width:'80%',
+       
+        
 
     },
     proname:{
@@ -84,7 +86,7 @@ export const useStyles = makeStyles({
         fontFamily:'Ysabeau Infant',
         textShadow:'#130f40 5px 4px 5px  ',
         fontWeight:'bold',
-        fontSize:'30px ',
+        
         
     },
     imgdiv:{
